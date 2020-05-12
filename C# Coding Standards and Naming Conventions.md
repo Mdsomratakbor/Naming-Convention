@@ -127,7 +127,7 @@
 </tbody>
 </table>
 
- **Do use PascalCasing for class names and method names:**</br>
+ **1. Do use PascalCasing for class names and method names:**</br>
  <pre><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">ClientActivity</span>
 {
   <span class="pl-k">public</span> <span class="pl-k">void</span> <span class="pl-en">ClearStatistics</span>()
