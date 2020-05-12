@@ -165,3 +165,15 @@
 <pre><span class="pl-k">var</span> <span class="pl-smi">seattleCustomers</span> <span class="pl-k">=</span> <span class="pl-k">from</span> <span class="pl-en">customer</span> <span class="pl-k">in</span> <span class="pl-smi">customers</span>
   <span class="pl-k">where</span> <span class="pl-smi">customer</span>.<span class="pl-smi">City</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">"</span>Seattle<span class="pl-pds">"</span></span> 
   <span class="pl-k">select</span> <span class="pl-smi">customer</span>.<span class="pl-smi">Name</span>;</pre>
+  **6. Avoid using Abbreviations. Exceptions: abbreviations commonly used as names, such as Id, Xml, Ftp, Uri.**
+  <pre><span class="pl-c"><span class="pl-c">//</span> Correct</span>
+<span class="pl-en">UserGroup</span> <span class="pl-smi">userGroup</span>;
+<span class="pl-en">Assignment</span> <span class="pl-smi">employeeAssignment</span>;     
+<span class="pl-c"><span class="pl-c">//</span> Avoid</span>
+<span class="pl-en">UserGroup</span> <span class="pl-smi">usrGrp</span>;
+<span class="pl-en">Assignment</span> <span class="pl-smi">empAssignment</span>; 
+<span class="pl-c"><span class="pl-c">//</span> Exceptions</span>
+<span class="pl-en">CustomerId</span> <span class="pl-smi">customerId</span>;
+<span class="pl-en">XmlDocument</span> <span class="pl-smi">xmlDocument</span>;
+<span class="pl-en">FtpHelper</span> <span class="pl-smi">ftpHelper</span>;
+<span class="pl-en">UriPart</span> <span class="pl-smi">uriPart</span>;</pre>
