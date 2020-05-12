@@ -149,3 +149,4 @@
     <span class="pl-c"><span class="pl-c">//</span> ...</span>
   }
 }</pre>
+**3. Do not use Hungarian notation or any other type identification in identifiers**
