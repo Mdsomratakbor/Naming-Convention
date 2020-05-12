@@ -161,3 +161,7 @@
 <span class="pl-k">public</span> <span class="pl-k">const</span> <span class="pl-k">string</span> <span class="pl-smi">ShippingType</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>DropShip<span class="pl-pds">"</span></span>;
 <span class="pl-c"><span class="pl-c">//</span> Avoid</span>
 <span class="pl-k">public</span> <span class="pl-k">const</span> <span class="pl-k">string</span> <span class="pl-smi">SHIPPINGTYPE</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>DropShip<span class="pl-pds">"</span></span>;</pre>
+**5. Use meaningful names for variables. The following example uses seattleCustomers for customers who are located in Seattle:**
+<pre><span class="pl-k">var</span> <span class="pl-smi">seattleCustomers</span> <span class="pl-k">=</span> <span class="pl-k">from</span> <span class="pl-en">customer</span> <span class="pl-k">in</span> <span class="pl-smi">customers</span>
+  <span class="pl-k">where</span> <span class="pl-smi">customer</span>.<span class="pl-smi">City</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">"</span>Seattle<span class="pl-pds">"</span></span> 
+  <span class="pl-k">select</span> <span class="pl-smi">customer</span>.<span class="pl-smi">Name</span>;</pre>
