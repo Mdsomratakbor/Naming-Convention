@@ -150,3 +150,9 @@
   }
 }</pre>
 **3. Do not use Hungarian notation or any other type identification in identifiers**
+<pre><span class="pl-c"><span class="pl-c">//</span> Correct</span>
+<span class="pl-k">int</span> <span class="pl-smi">counter</span>;
+<span class="pl-k">string</span> <span class="pl-smi">name</span>;    
+<span class="pl-c"><span class="pl-c">//</span> Avoid</span>
+<span class="pl-k">int</span> <span class="pl-smi">iCounter</span>;
+<span class="pl-k">string</span> <span class="pl-smi">strName</span>;</pre>
