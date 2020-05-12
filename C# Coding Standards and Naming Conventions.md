@@ -156,3 +156,8 @@
 <span class="pl-c"><span class="pl-c">//</span> Avoid</span>
 <span class="pl-k">int</span> <span class="pl-smi">iCounter</span>;
 <span class="pl-k">string</span> <span class="pl-smi">strName</span>;</pre>
+**4. Do not use Screaming Caps for constants or readonly variables:**
+<pre><span class="pl-c"><span class="pl-c">//</span> Correct</span>
+<span class="pl-k">public</span> <span class="pl-k">const</span> <span class="pl-k">string</span> <span class="pl-smi">ShippingType</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>DropShip<span class="pl-pds">"</span></span>;
+<span class="pl-c"><span class="pl-c">//</span> Avoid</span>
+<span class="pl-k">public</span> <span class="pl-k">const</span> <span class="pl-k">string</span> <span class="pl-smi">SHIPPINGTYPE</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>DropShip<span class="pl-pds">"</span></span>;</pre>
