@@ -177,3 +177,7 @@
 <span class="pl-en">XmlDocument</span> <span class="pl-smi">xmlDocument</span>;
 <span class="pl-en">FtpHelper</span> <span class="pl-smi">ftpHelper</span>;
 <span class="pl-en">UriPart</span> <span class="pl-smi">uriPart</span>;</pre>
+**7. Do use camelCasing for abbreviations 3 characters or more (2 chars are both uppercase):**
+<pre><span class="pl-en">HtmlHelper</span> <span class="pl-smi">htmlHelper</span>;
+<span class="pl-en">FtpTransfer</span> <span class="pl-smi">ftpTransfer</span>;
+<span class="pl-en">UIControl</span> <span class="pl-smi">uiControl</span>;</pre>
