@@ -139,3 +139,13 @@
     <span class="pl-c"><span class="pl-c">//</span>...</span>
   }
 }</pre>
+
+**2. Do use camelCasing for method arguments and local variables:**
+<pre><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">UserLog</span>
+{
+  <span class="pl-k">public</span> <span class="pl-k">void</span> <span class="pl-en">Add</span>(<span class="pl-en">LogEvent</span> <span class="pl-smi">logEvent</span>)
+  {
+    <span class="pl-k">int</span> <span class="pl-smi">itemCount</span> <span class="pl-k">=</span> <span class="pl-smi">logEvent</span>.<span class="pl-smi">Items</span>.<span class="pl-smi">Count</span>;
+    <span class="pl-c"><span class="pl-c">//</span> ...</span>
+  }
+}</pre>
